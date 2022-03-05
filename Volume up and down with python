@@ -6,6 +6,16 @@ from comtypes import CLSCTX_ALL
 from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
 import numpy as np
 
+# python --version
+# pip install opencv-python
+# python
+# import cv2
+# cv2.__version__
+# pip install mediapipe
+# pip install comtypes
+# pip install numpy
+# pip install pycaw
+
 cap = cv2.VideoCapture(0)
 
 mpHands = mp.solutions.hands
